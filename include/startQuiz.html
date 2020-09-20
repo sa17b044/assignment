@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+</head>
+
+<body>
+  <div class="container">
+    <form class="form-quiz">
+      <label class="form-label">Category</label>
+      <select class="form-control" name="category">
+        <option value="any">Any Category</option>
+        <option value="linux">Linux</option>
+        <option value="bash">Bash</option>
+        <option value="uncategorized">Uncategorized</option>
+        <option value="docker">Docker</option>
+        <option value="sql">SQL</option>
+        <option value="cms">CMS</option>
+        <option value="code">Code</option>
+        <option value="devops">DevOps</option>
+      </select>
+      <label class="form-label">Difficulty</label>
+      <select class="form-control " name="difficulty">
+        <option value="any">Any Difficulty</option>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+      <input type="submit" class="btn-submit">
+    </form>
+    <form class="fin-form">
+      <div class="question-id"></div>
+      <input type="submit" class="fin-form" value="Finish & Save">
+    </form>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>
