@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/myQuiz.css">
   <title>Quiz</title>
 </head>
 
 <body>
-  <div class="container">
-    <form class="form-quiz">
+  <div>
+    <form class="form-quiz flex-container">
       <label class="form-label">Category</label>
       <select class="form-control" name="category">
         <option value="any">Any Category</option>
@@ -28,11 +29,11 @@
         <option value="Medium">Medium</option>
         <option value="Hard">Hard</option>
       </select>
-      <input type="submit" class="btn-submit">
+      <input type="submit" class="btn-submit runBtn btnStruc" value="Run">
     </form>
     <form class="fin-form">
       <div class="question-id"></div>
-      <input type="submit" class="fin-form" value="Finish & Save">
+      <input type="submit" class="fin-form btnSaveAndFin btnStruc" value="Finish & Save">
     </form>
   <script src="../js/app.js"></script>
 </body>

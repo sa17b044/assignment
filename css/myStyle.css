@@ -84,3 +84,6 @@ background-color: rgba(0, 128, 0, 0.8);
 .btnScore{
     background-color: rgba(255, 200, 3, 0.7);
 }
+.btnFin{
+  background-color: rgb(255, 0, 0,0.7);
+}
