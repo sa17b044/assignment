@@ -29,5 +29,11 @@ html{
     cursor: pointer;
   }
   .btnSaveAndFin{
-    background-color: rgba(255, 0, 0, 0.384);
+    background-color: rgba(255, 0, 0, 0.7);
+  }
+  .btnRun{
+      background-color: rgba(172, 255, 47, 0.7);
+  }
+  .hidden{
+      display: none;
   }

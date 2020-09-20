@@ -60,7 +60,6 @@ form.addEventListener('submit', e => {
     const category = form.category.value;
     const difficulty = form.difficulty.value;
     form.reset();
-
     updateData(category,difficulty)
         .then(data => showQuiz(data[0]))
         .catch(err => console.log(err));
