@@ -34,13 +34,13 @@ Object.keys(data.correct_answers).forEach((key,index)=>{
 });
         const html = `
         <p>${data.question}</p>
-        <input type="radio" id="0" value="0" onclick="checkAnswer('0',${corAnswerArray})">
+        <input type="radio" name={data.id} value="0" onclick="checkAnswer('0',${corAnswerArray})">
         <label>${data.answers.answer_a}</label>
-        <input type="radio" id="1" value="1" onclick="checkAnswer('1',${corAnswerArray})">
+        <input type="radio" name={data.id} value="1" onclick="checkAnswer('1',${corAnswerArray})">
         <label>${data.answers.answer_b}</label>
-        <input type="radio" id="2" value="2" onclick="checkAnswer('2',${corAnswerArray})">
+        <input type="radio" name={data.id} value="2" onclick="checkAnswer('2',${corAnswerArray})">
         <label>${data.answers.answer_c}</label>
-        <input type="radio" id="3" value="3" onclick="checkAnswer('3',${corAnswerArray})">
+        <input type="radio" name={data.id} value="3" onclick="checkAnswer('3',${corAnswerArray})">
         <label>${data.answers.answer_d}</label>
         `;
         questionBox.innerHTML += html
