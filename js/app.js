@@ -43,6 +43,7 @@ Object.keys(data.correct_answers).forEach((key,index)=>{
         <input type="radio" name=${data.id} value="3" onclick="checkAnswer('3',${corAnswerArray})">
         <label>${data.answers.answer_d}</label>
         `;
+    console.log(data.id);
         questionBox.innerHTML += html
 }
 const updateData = async (category,difficulty) => {
